@@ -1,11 +1,11 @@
 # Version of the Icarus theme that is currently used
 version: 2.0.0
 # Path or URL to the website's icon
-favicon: /images/favicon.svg
+favicon: /images/favicon.png
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/logo.svg
+logo: /images/blog_ico1.png
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -27,25 +27,15 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
+        # About: /about
     # Navigation bar links to be shown on the right
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/keasti/hexo_blog1'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
-    links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'http://github.com/ppoffice/hexo-theme-icarus'
 # Article display settings
 article:
     # Code highlight theme
@@ -87,50 +77,19 @@ sidebar:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     -
-        type: profile
-        position: left
-        author: Your name
-        author_title: Your title
-        location: Your location
-        avatar: 
-        gravatar: 
-        follow_link: 'http://github.com/ppoffice'
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: 'http://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'http://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'http://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'http://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
-    -
-        type: toc
-        position: left
-    -
         type: links
-        position: left
+        position: right
         links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            Web: 'https://k-easti.tk'
+            Mastodon: 'https://mstdn.maud.io/@keasti'
     -
-        type: category
-        position: left
-    -
-        type: tagcloud
-        position: left
+        type: archive
+        position: right
     -
         type: recent_posts
         position: right
     -
-        type: archive
+        type: category
         position: right
     -
         type: tag
