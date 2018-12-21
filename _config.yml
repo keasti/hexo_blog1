@@ -12,7 +12,7 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.k-easti.tk
+url: https://blog.keas.tech
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

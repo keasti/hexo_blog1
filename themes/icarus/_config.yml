@@ -29,13 +29,13 @@ navbar:
         Tags: /tags
         # About: /about
     # Navigation bar links to be shown on the right
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/keasti/hexo_blog1'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
+    links:
+        Sources available on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/keasti/hexo_blog1'
 # Article display settings
 article:
     # Code highlight theme
