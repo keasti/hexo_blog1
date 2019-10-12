@@ -80,7 +80,7 @@ widgets:
         type: links
         position: right
         links:
-            Web: 'https://k-easti.tk'
+            Web: 'https://keasti.net'
             Mastodon: 'https://mstdn.maud.io/@keasti'
     -
         type: archive
