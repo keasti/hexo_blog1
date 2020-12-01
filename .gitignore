@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*//public
 /node_modules
+_config.icarus.yml.bak
+_config.yml.bak
